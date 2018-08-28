@@ -1,0 +1,1 @@
+{"version":3,"file":"counter-host.component.js","sourceRoot":"","sources":["counter-host.component.ts"],"names":[],"mappings":";;;;;;;;AAAA,sCAA0C;AAO1C;IAAA;IAAmC,CAAC;IAAvB,oBAAoB;QALhC,gBAAS,CAAC;YACP,QAAQ,EAAE,MAAM,CAAC,EAAE;YACnB,QAAQ,EAAE,cAAc;YACxB,WAAW,EAAE,6BAA6B;SAC7C,CAAC;OACW,oBAAoB,CAAG;IAAD,2BAAC;CAAA,AAApC,IAAoC;AAAvB,oDAAoB"}

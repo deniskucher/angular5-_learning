@@ -1,0 +1,4 @@
+# Lines starting with '#' are considered comments.
+node_modules/
+# Ignore objects and archives.
+*.[oa]

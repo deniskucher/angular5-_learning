@@ -1,0 +1,11 @@
+<h1>Hello JABIL!!</h1>
+<ul class="list">
+    <li *ngFor="let value of Values" 
+        (click)="onSelect(value)">
+        {{value}}  
+    </li>
+</ul>
+
+<div class="out" *ngIf="selectedPhrase">
+    Selected Phrase : <span>{{selectedPhrase}}</span>
+</div>

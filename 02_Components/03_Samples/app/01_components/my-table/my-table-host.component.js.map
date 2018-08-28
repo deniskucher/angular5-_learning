@@ -1,0 +1,1 @@
+{"version":3,"file":"my-table-host.component.js","sourceRoot":"","sources":["my-table-host.component.ts"],"names":[],"mappings":";;;;;;;;AAAA,sCAA0C;AAO1C;IAAA;IAAmC,CAAC;IAAvB,oBAAoB;QALhC,gBAAS,CAAC;YACP,QAAQ,EAAE,MAAM,CAAC,EAAE;YACnB,QAAQ,EAAE,eAAe;YACzB,WAAW,EAAE,8BAA8B;SAC9C,CAAC;OACW,oBAAoB,CAAG;IAAD,2BAAC;CAAA,AAApC,IAAoC;AAAvB,oDAAoB"}

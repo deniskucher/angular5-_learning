@@ -1,0 +1,30 @@
+<div>
+    <label for="category">Category: </label>
+    <select name="category" id="category" (change)="onChange($event.target.value)">
+        <option *ngFor="let category of categoryDecriptor" value="{{category}}">{{category}}</option>
+    </select>
+</div>
+<table class="table  table-stripped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Category</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let product of Products" [ngStyle]="getStyles(product)">
+            <td>{{product.id}}</td>
+            <td>{{product.name}}</td>
+            <td>{{product.price}}</td>
+            <td>{{product.category}}</td>
+        </tr>
+    </tbody>
+</table>
+<ul>
+    <li *ngFor="let value of Values"> 
+        {{value}}  
+    </li>
+</ul>
+
